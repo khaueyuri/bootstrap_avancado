@@ -1,0 +1,71 @@
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+}
+
+h1{
+    color: rgb(11, 3, 82);
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #fff;
+}
+
+section h2 {
+    padding-top: 70px;
+    color: rgb(11, 3, 82);
+    text-align: center;
+    
+}
+
+.carousel-caption h2 {
+    color: #fff;
+}
+
+.card img{
+    height: 355px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.card {
+    color: rgb(11, 3, 82);
+}
+
+@media screen and (max-width: 640px){
+    .artigo {
+        padding-left: px;
+    }
+
+    .card img {
+        height: 200px;
+        align-items: center;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023){
+    .artigo {
+        padding-left: 40px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .sobre p{
+        padding: 24px;
+    }
+}
